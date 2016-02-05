@@ -24,6 +24,17 @@ public class MethodReference {
         // Here, a method reference to isPrime is passed to numTest()
         result = numTest(MyIntPredicates::isPrime, 17);
         if (result) System.out.println("17 is prime.");
+
+
+
+
+        MyIntNum myNum = new MyIntNum(12);
+        IntPredicate ip = myNum::isFactor; // A method reference to an instance method
+        // Here, the method reference assigned to ip refers to an instance method isFactor( ) on myNum.
+        // Thus, when test( ) is called through that reference, as shown here
+        result = ip.test(3);
+        if (result) System.out.println("3 is a factor of " + myNum.getNum() );
+
     }
 }
 
@@ -50,3 +61,21 @@ class MyIntPredicates {
         return n>0;
     }
 }
+
+
+/**This class stores an int value and defines the instance method isFactor()
+ * which returns true if its argument is a factor of the stored value.
+ */
+class MyIntNum {
+    private int v;
+    public MyIntNum(int x) {
+        v = x;
+    }
+
+    int getNum() { return v; }
+
+    boolean isFactor(int n) {
+        return (v%n)==0;
+    }
+}
+

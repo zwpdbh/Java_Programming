@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java_Programming.iml" filepath="$PROJECT_DIR$/Java_Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorint/Sorint.iml" filepath="$PROJECT_DIR$/Sorint/Sorint.iml" />
     </modules>
   </component>
 </project>

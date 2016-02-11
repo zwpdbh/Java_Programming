@@ -23,7 +23,7 @@ public abstract class Duck {
     }
 
 
-    /**We can call these methods anythime we want to change the behaviour of a duck on the fly*/
+    /**We can call these methods any time we want to change the behaviour of a duck on the fly*/
     public void setFlyBehavior(FlyBehavior fb) {
         flyBehavior = fb;
     }

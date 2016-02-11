@@ -21,4 +21,14 @@ public abstract class Duck {
     public void swim() {
         System.out.println("All ducks float, even decoys");
     }
+
+
+    /**We can call these methods anythime we want to change the behaviour of a duck on the fly*/
+    public void setFlyBehavior(FlyBehavior fb) {
+        flyBehavior = fb;
+    }
+
+    public void setQuackBehavior(QuackBehavior qb) {
+        quackBehavior = qb;
+    }
 }

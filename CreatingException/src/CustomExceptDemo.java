@@ -21,5 +21,8 @@ public class CustomExceptDemo {
                 System.out.println(exc);
             }
         }
+
+
+
     }
 }

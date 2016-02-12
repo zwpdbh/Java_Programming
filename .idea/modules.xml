@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CreatingException/CreatingException.iml" filepath="$PROJECT_DIR$/CreatingException/CreatingException.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DuckDemo/DuckDemo.iml" filepath="$PROJECT_DIR$/DuckDemo/DuckDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithms-1/Algorithms-1.iml" filepath="$PROJECT_DIR$/Algorithms-1/Algorithms-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExceptionDemo/ExceptionDemo.iml" filepath="$PROJECT_DIR$/ExceptionDemo/ExceptionDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_Programming.iml" filepath="$PROJECT_DIR$/Java_Programming.iml" />
     </modules>

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Algorithms-1/Algorithms-1.iml" filepath="$PROJECT_DIR$/Algorithms-1/Algorithms-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExceptionDemo/ExceptionDemo.iml" filepath="$PROJECT_DIR$/ExceptionDemo/ExceptionDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_Programming.iml" filepath="$PROJECT_DIR$/Java_Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObserverAndLooseCoupling/ObserverAndLooseCoupling.iml" filepath="$PROJECT_DIR$/ObserverAndLooseCoupling/ObserverAndLooseCoupling.iml" />
     </modules>
   </component>
 </project>
